@@ -21,6 +21,9 @@
 .p-10 {
   padding: 10px;
 }
+.p-15 {
+  padding: 15px;
+}
 .p-20 {
   padding: 20px;
 }
@@ -66,9 +69,17 @@
 }
 
 /* End Border */
+
 /* Start Width + Height */
+.w-full {
+  width: 100%;
+}
 
 /* End Width + Height */
 /* Start Components */
-
+.between-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 /* End Components */
