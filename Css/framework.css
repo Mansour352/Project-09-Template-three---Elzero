@@ -11,11 +11,23 @@
 .d-flex {
   display: flex;
 }
-
 .align-center {
   align-items: center;
 }
-
+.d-grid {
+  display: grid;
+}
+.gap-20 {
+  gap: 20px;
+}
+@media (max-width: 767px) {
+  .block-mobile {
+    display: block;
+  }  
+  .txt-c-mobile {
+    text-align: center;
+  }
+}
 /* End Box */
 /* Start Padding + Margin */
 .p-10 {
