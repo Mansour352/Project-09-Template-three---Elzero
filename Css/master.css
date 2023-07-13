@@ -207,7 +207,7 @@ transition: 0.3s;
   overflow: hidden;
 }
 .welcome .intro img {
-  width: 170px;
+  width: 200px;
   margin-bottom: -10px;
 }
 .welcome .avatar {
@@ -238,5 +238,26 @@ transition: 0.3s;
     .welcome .intro {
       padding-bottom: 30px;
     }
+    .welcome .avatar {
+      margin-left: 0;
+    }
+    .welcome .body > div:not(:last-child) {
+      margin-bottom: 20px;
+    }
   }
 /* End Welcome Widget */
+
+/* Start Quick Draft Widget */
+.quick-draft textarea {
+  resize: none;
+  min-height: 180px;
+}
+.quick-draft .save {
+  margin-left: auto;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.quick-draft .save:hover {
+  background-color: var(--blue-alt-color);
+}
+/* End Quick Draft Widget */
