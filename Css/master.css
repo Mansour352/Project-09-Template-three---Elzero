@@ -385,3 +385,13 @@ text-decoration: line-through;
   color: var(--red-color);
 }
 /* End Tasks */
+
+/* End Latest Uploads */
+.latest-uploads ul li:not(:last-child) {
+  border-bottom: 1px solid #eee;
+}
+.latest-uploads ul li img {
+  width: 40px;
+  height: 40px;
+}
+/* Start Latest Uploads */
