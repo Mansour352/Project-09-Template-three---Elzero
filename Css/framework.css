@@ -4,7 +4,7 @@
   --orange-color: #f59e0b;
   --green-color: #22c55e;
   --red-color: #f44336;
-  --grey-color: #888;
+  --gray-color: #888;
 }
 
 /* Start Box */
@@ -73,6 +73,9 @@
 .mt-20 {
   margin-top: 20px;
 }
+.mt-25 {
+  margin-top: 25px;
+}
 .mr-10 {
   margin-right: 10px;
 }
@@ -105,8 +108,8 @@
 .c-black {
   color: black;
 }
-.c-grey {
-  color: var(--grey-color);
+.c-gray {
+  color: var(--gray-color);
 }
 .c-white {
   color: white;
@@ -156,6 +159,9 @@
 /* Start Border */
 .rad-6 {
   border-radius: 6px;
+}
+.rad-10 {
+  border-radius: 10px;
 }
 .b-none {
   border: none;
